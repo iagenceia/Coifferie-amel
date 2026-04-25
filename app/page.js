@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#C4B59A]">
-
       {/* PHOTO ÉQUIPE EN GRAND EN TÊTE */}
       <section className="relative">
         <img
@@ -10,8 +9,8 @@ export default function Home() {
           className="w-full h-[500px] md:h-[650px] object-cover"
         />
         <div className="absolute inset-0 bg-black/40">
-      <div className="text-center px-4 pt-24 md:pt-32">
-        <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">Coifferie D'Amel</h1>
+          <div className="text-center px-4 pt-24 md:pt-32">
+            <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">Coifferie D'Amel</h1>
             <p className="text-xl md:text-2xl text-white drop-shadow-lg">L'art de sublimer votre beauté naturelle à Issoire</p>
             <a href="https://www.planity.com/la-coifferie-damel-63500-issoire" target="_blank" rel="noopener noreferrer">
               <button className="mt-8 bg-white text-[#4A3F35] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
@@ -81,25 +80,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RDV */}
-      <section className="py-20 px-6 bg-[#4A3F35] text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Prendre Rendez-vous</h2>
-          <p className="text-lg text-gray-200 mb-8">Réservez votre moment beauté en ligne 24h/24</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://www.planity.com/la-coifferie-damel-63500-issoire" target="_blank" rel="noopener noreferrer">
-              <button className="bg-white text-[#4A3F35] px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition w-full sm:w-auto">
-                Réserver sur Planity
-              </button>
-            {/* Section Contact */}
+      {/* Section Contact - REMPLACE TA SECTION RDV PAR ÇA */}
       <section id="contact" className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Nous Contacter</h2>
-          
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#4A3F35]">Nous Contacter</h2>
           <div className="grid md:grid-cols-2 gap-12">
-            {/* Horaires */}
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Horaires d'ouverture</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-[#4A3F35]">Horaires d'ouverture</h3>
               <div className="space-y-3 text-lg">
                 <div className="flex justify-between">
                   <span>Lundi</span>
@@ -123,26 +110,22 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            {/* Adresse */}
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Adresse</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-[#4A3F35]">Adresse</h3>
               <p className="text-lg mb-6">
                 Route de Perrier<br />
                 63500 Issoire
               </p>
-              
-              <a 
-                href="tel:0473891078" 
+              <a
+                href="tel:0473891078"
                 className="text-2xl font-bold text-pink-600 hover:text-pink-700 block mb-6"
               >
                 04 73 89 10 78
               </a>
-
-              <a 
+              <a
                 href="https://www.google.com/maps/search/?api=1&query=Route+de+Perrier+63500+Issoire"
                 target="_blank"
-                className="inline-block bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800"
+                className="inline-block bg-[#4A3F35] text-white px-6 py-3 rounded-full hover:bg-gray-800"
               >
                 Voir sur Google Maps
               </a>
