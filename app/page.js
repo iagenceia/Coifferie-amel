@@ -9,9 +9,9 @@ export default function Home() {
           alt="L'équipe Coifferie Amel"
           className="w-full h-[500px] md:h-[650px] object-cover"
         />
-        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-          <div className="text-center px-4">
-            <h1 className="text-5xl md:text-8xl font-bold text-white mb-4 drop-shadow-lg">Coifferie Amel</h1>
+        <div className="absolute inset-0 bg-black/40">
+      <div className="text-center px-4 pt-24 md:pt-32">
+        <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">Coifferie D'Amel</h1>
             <p className="text-xl md:text-2xl text-white drop-shadow-lg">L'art de sublimer votre beauté naturelle à Issoire</p>
             <a href="https://www.planity.com/la-coifferie-damel-63500-issoire" target="_blank" rel="noopener noreferrer">
               <button className="mt-8 bg-white text-[#4A3F35] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition">
