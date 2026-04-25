@@ -91,14 +91,63 @@ export default function Home() {
               <button className="bg-white text-[#4A3F35] px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition w-full sm:w-auto">
                 Réserver sur Planity
               </button>
-            </a>
-            <a href="https://www.facebook.com/share/18YPjp89dr/" target="_blank" rel="noopener noreferrer">
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-[#4A3F35] transition w-full sm:w-auto">
-                Page Facebook
-              </button>
-            </a>
+            {/* Section Contact */}
+      <section id="contact" className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12">Nous Contacter</h2>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Horaires */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Horaires d'ouverture</h3>
+              <div className="space-y-3 text-lg">
+                <div className="flex justify-between">
+                  <span>Lundi</span>
+                  <span className="font-medium">14h00 - 18h00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Mardi - Jeudi</span>
+                  <span className="font-medium">09h00 - 18h00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Vendredi</span>
+                  <span className="font-medium">08h00 - 18h00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Samedi</span>
+                  <span className="font-medium">08h00 - 16h00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Dimanche</span>
+                  <span className="font-medium text-red-600">Fermé</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Adresse */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Adresse</h3>
+              <p className="text-lg mb-6">
+                Route de Perrier<br />
+                63500 Issoire
+              </p>
+              
+              <a 
+                href="tel:0473891078" 
+                className="text-2xl font-bold text-pink-600 hover:text-pink-700 block mb-6"
+              >
+                04 73 89 10 78
+              </a>
+
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Route+de+Perrier+63500+Issoire"
+                target="_blank"
+                className="inline-block bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800"
+              >
+                Voir sur Google Maps
+              </a>
+            </div>
           </div>
-          <p className="mt-8 text-gray-300">Coifferie Amel - Issoire</p>
         </div>
       </section>
 
